@@ -28,10 +28,10 @@ console.log(anotherString); // Output: "att"
 
 const newStringone = "    levi    "
 console.log(newStringone);
-console.log(newStringone.trim()); //remove ampty spaces
+console.log(newStringone.trim()); //remove empty spaces
 
 const url = "https://gith%20ub.com"
-console.log(url.replace('%20','-'))
+console.log(url.replace('%20','-')) //This will replace the first accourence only while replace all will replace all occurence
 console.log(url.includes('hello'))
 
 console.log(game.split('-'))

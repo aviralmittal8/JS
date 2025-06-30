@@ -1,12 +1,12 @@
 const arr = [1, 2, 3, 4, "hello"];
-const arr2 = new Array(1, 2, 3, 4, 5);
+const arr2 = new Array(1, 2, 3, 4, 5); // Creates a Array  object instead of a primitive string
 
 arr2.push(6);
 arr.push(6);
 console.log(arr); // [1, 2, 3, 4, "hello", 6]
 console.log(arr2); // [1, 2, 3, 4, 5, 6]
 
-arr2.pop(); // Corrected (removes last element)
+arr2.pop(); // return the peped item  (removes last element)
 console.log(arr2); // [1, 2, 3, 4, 5]
 
 console.log(arr.includes(4)); // true
