@@ -141,6 +141,11 @@
 // console.log(`Sum = ${total}, product = ${multiple}.`);
 
 
+//Objects
+const student = {
+    
+}
+
 
 
 
