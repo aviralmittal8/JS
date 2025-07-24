@@ -1,6 +1,8 @@
-🟨 JavaScript Practice Repository
+# 🟨 JavaScript Practice Repository
 
 Welcome to my JavaScript learning repository! This is a structured collection of practice files, concepts, and mini-projects that I’ve worked on to strengthen my understanding of JavaScript, from basics to real-world applications.
+
+---
 
 ## 📂 Folder Overview
 
@@ -76,6 +78,8 @@ Then open individual `.html` or `.js` files in your browser or text editor (like
 * Practice modern JS features (ES6+)
 * Build small-scale, functional projects
 * Experiment with both vanilla JS and browser APIs
+
+---
 
 ## 🤝 Contributions
 
