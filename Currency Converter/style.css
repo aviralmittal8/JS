@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4e4ba;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  margin: 1.5rem 0;
+}
+
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus,
+select:focus,
+button:focus {
+  box-shadow: 0 0 5px rgba(175, 77, 152, 0.5);
+  border: 1px solid #af4d98;
+}
+
+form input {
+  border: 1px solid lightgray;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+@media (min-width: 480px) {
+  .dropdown {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dropdown i {
+    margin-top: 1.5rem;
+  }
+}
+
+.dropdown i {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid lightgray;
+  padding: 0.3rem 0.6rem;
+  gap: 0.5rem;
+  background-color: #fafafa;
+}
+
+.select-container img {
+  max-width: 2rem;
+}
+
+.select-container select {
+  font-size: 1rem;
+  width: 100%;
+  background: transparent;
+}
+
+.msg {
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.loader {
+  display: none;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.btn {
+  height: 3rem;
+  background-color: #af4d98;
+  color: white;
+  font-size: 1.15rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #993d84;
+}
